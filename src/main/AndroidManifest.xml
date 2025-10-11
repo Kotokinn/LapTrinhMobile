@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="BaiTap"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+        <activity
+            android:name=".chuong5.baitap.Chuong5_BaiTap3"
+            android:exported="false" />
+        <activity
+            android:name=".chuong5.baitap.Chuong5_BaiTap2"
+            android:exported="false" />
+        <activity
+            android:name=".chuong4.baitap.Chuong4_BaiTap9"
+            android:exported="false" />
+        <activity
+            android:name=".chuong4.baitap.Chuong4_BaiTap8"
+            android:exported="false" />
+        <activity
+            android:name=".chuong4.baitap.Chuong4_BaiTap7"
+            android:exported="false" />
+        <activity
+            android:name=".chuong4.baitap.Chuong4_BaiTap6"
+            android:exported="false" />
+        <activity
+            android:name=".chuong4.baitap.Chuong4_BaiTap5"
+            android:exported="false" />
+        <activity
+            android:name=".chuong4.baitap.Chuong4_BaiTap4"
+            android:exported="false" />
+        <activity
+            android:name=".chuong4.baitap.Chuong4_BaiTap3"
+            android:exported="false" />
+        <activity
+            android:name=".chuong4.baitap.Chuong4_BaiTap2"
+            android:exported="false" />
+        <activity
+            android:name=".chuong4.baitap.Chuong4_BaiTap1"
+            android:exported="false" />
+        <activity
+            android:name=".chuong4.baitap.BaiTap1"
+            android:exported="false" />
+        <activity
+            android:name=".baitap.BaiTap7"
+            android:exported="false" />
+        <activity
+            android:name=".baitap.BaiTap6"
+            android:exported="false" />
+        <activity
+            android:name=".baitap.BaiTap5"
+            android:exported="false" />
+        <activity
+            android:name=".baitap.BaiTap4"
+            android:exported="false" />
+        <activity
+            android:name=".baitap.BaiTap3"
+            android:exported="false"
+            android:label="Send Email" />
+        <activity
+            android:name=".baitap.BaiTap2"
+            android:exported="false" />
+        <activity
+            android:name=".baitap.BaiTap1"
+            android:exported="false"
+            android:label="Bai Tap 1" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Danh sách bài tập">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

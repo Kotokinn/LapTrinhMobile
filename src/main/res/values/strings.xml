@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!--Bai tap 4-->
+    <string name="baiTap4_Activity">User Login</string>
+    <string name="baiTap4_UserHint">User:</string>
+    <string name="baiTap4_PasswordHint">Password</string>
+    <string name="baiTap4_btnLogin">Login</string>
+    <string name="baiTap4_btnCancel">Cancel</string>
+    <!--Bai tap 5-->
+    <string name="baiTap5_textA">Nhập số A:</string>
+    <string name="baiTap5_textB">Nhập số B:</string>
+    <string name="baiTap5_result">Kết quả:</string>
+    <string name="baiTap5_cong">+</string>
+    <string name="baiTap5_tru">-</string>
+    <string name="baiTap5_nhan">*</string>
+    <string name="baiTap5_chia">/</string>
+
+
+    <!--    Bai tap 6-->
+    <string name="baiTap6_Name">Họ tên</string>
+    <string name="baiTap6_Sex">Giới tính</string>
+    <string name="baiTap6_Guy">Nam</string>
+    <string name="baiTap6_Girl">Nữ</string>
+    <string name="baiTap6_Fav">Sở thích</string>
+
+
+    <!--    Bai tap 7-->
+    <string name="baiTap7_day">ngày</string>
+    <string name="baiTap7_month">tháng</string>
+    <string name="baiTap7_year">năm</string>
+</resources>
