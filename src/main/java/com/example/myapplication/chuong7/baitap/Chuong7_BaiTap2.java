@@ -46,8 +46,7 @@ public class Chuong7_BaiTap2 extends AppCompatActivity {
         btnExpress.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent express = new Intent();
-                express.setAction(Intent.ACTION_VIEW);
+                Intent express = new Intent(Intent.ACTION_VIEW);
                 express.setData(Uri.parse("https://vnexpress.net"));
                 startActivity(express);
             }
