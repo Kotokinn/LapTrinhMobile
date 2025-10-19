@@ -36,7 +36,9 @@ public class MainActivity extends AppCompatActivity {
     ExpandableListView expandableListView;
     static final String[] CHUONGS = {
             "chuong4",
-            "chuong5"
+            "chuong5",
+            "chuong6",
+            "chuong7"
     };
 
     static final int MAX_BAITAP = 30;
