@@ -34,6 +34,15 @@ public class Chuong7_BaiTap2 extends AppCompatActivity {
         btnCall = (ImageButton) findViewById(R.id.c7_b2_btnCall);
         btnMess = (ImageButton) findViewById(R.id.c7_b2_btnMess);
 
+        btnMess.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent mess = new Intent(Intent.ACTION_SENDTO);
+                mess.setData(Uri.parse("sms:hello world"));
+                startActivity(mess);
+            }
+        });
+
         btnExpress.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -48,6 +57,9 @@ public class Chuong7_BaiTap2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent call = new Intent();
+                call.setAction(Intent.ACTION_DIAL);
+                call.setData(Uri.parse("tel:0999999999"));
+                startActivity(call);
             }
         });
 
