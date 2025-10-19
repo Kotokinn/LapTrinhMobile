@@ -48,7 +48,6 @@ public class Chuong7_BaiTap2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent call = new Intent();
-//                call.set
             }
         });
 
