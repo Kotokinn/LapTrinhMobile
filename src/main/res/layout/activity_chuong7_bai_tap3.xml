@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chuong7.baitap.Chuong7_BaiTap3">
+
+    <LinearLayout
+        android:layout_width="405dp"
+        android:layout_height="582dp"
+        android:layout_marginTop="92dp"
+        android:orientation="vertical"
+        app:flow_verticalGap="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Main Activity"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Ung Dung Lay So Thu Tu"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ho Ten Khach Hang:" />
+
+            <EditText
+                android:id="@+id/c7_b3_eHoTen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text"
+                android:text="MC Tuan" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/c7_b3_btnSendStr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send String" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="So Thu Tu:" />
+
+            <EditText
+                android:id="@+id/c7_b3_eSTT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/c7_b3_btnSendInt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Int" />
+
+        <Button
+            android:id="@+id/c7_b3_btnSendStrAndInt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send String and Int" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

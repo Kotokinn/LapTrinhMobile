@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
         <activity
+            android:name=".chuong7.baitap.supactivitiesbai3.Chuong7_BaiTap3_GetStringAndIntExtraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chuong7.baitap.supactivitiesbai3.Chuong7_BaiTap3_GetStringExtraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chuong7.baitap.supactivitiesbai3.Chuong7_BaiTap3_GetIntExtraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chuong7.baitap.Chuong7_BaiTap3"
+            android:exported="false" />
+        <activity
             android:name=".chuong7.baitap.Chuong7_BaiTap2"
             android:exported="false" />
         <activity
