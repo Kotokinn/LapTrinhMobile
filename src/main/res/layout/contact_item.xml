@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:hint="Id"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:textColor="#02061F"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:hint="Tên"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="#02061F"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvType"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:hint="Số điện thoại"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="#02061F"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout><!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:orientation="horizontal"-->
+    <!--    android:background="@android:color/white">-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/tvId"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_weight="1"-->
+    <!--        android:text="1"-->
+    <!--        android:textStyle="bold" />-->
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:orientation="vertical">-->
+
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/tvName"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_weight="2"-->
+    <!--            android:text="Name" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/tvType"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:text="Auto" />-->
+    <!--    </LinearLayout>-->
+
+    <!--</LinearLayout>-->

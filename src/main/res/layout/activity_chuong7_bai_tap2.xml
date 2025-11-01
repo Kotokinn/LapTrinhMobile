@@ -25,9 +25,11 @@
 
         <ImageButton
             android:id="@+id/c7_b2_btnExpress"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@android:drawable/alert_dark_frame" />
+            android:layout_width="186dp"
+            android:layout_height="168dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/unnamed" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -36,17 +38,19 @@
 
             <ImageButton
                 android:id="@+id/c7_b2_btnCall"
-                android:layout_width="wrap_content"
+                android:layout_width="58dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                app:srcCompat="@android:drawable/arrow_down_float" />
+                android:background="@null"
+                app:srcCompat="@mipmap/ic_call" />
 
             <ImageButton
                 android:id="@+id/c7_b2_btnMess"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                app:srcCompat="@android:drawable/arrow_up_float" />
+                android:background="@null"
+                app:srcCompat="@mipmap/ic_mess" />
         </LinearLayout>
 
     </LinearLayout>

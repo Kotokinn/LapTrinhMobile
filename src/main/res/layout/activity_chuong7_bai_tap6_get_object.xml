@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chuong7.baitap.supactivitiesbai6.Chuong7_BaiTap6_GetObjectActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="566dp"
+        android:layout_marginTop="88dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_height="wrap_content"
+            android:text="Get Object Activity" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:text="Khoa Hoc" />
+
+        <TextView
+            android:id="@+id/c7_b6_txtTenMonHoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/c7_b6_txtGiaTien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/c7_b6_getObj_btnBackMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back To Main" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

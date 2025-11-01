@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    tools:context=".chuong7.baitap.Chuong7_BaiTap4"
+    android:padding="10dp">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="90dp"
+        app:cardCornerRadius="12dp"
+
+        app:srcCompat="@mipmap/ic_launcher_round"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="33dp"
+        android:drawableStart="@drawable/outline_article_person_24"
+        android:ems="10"
+        android:hint="User Name"
+        android:inputType="text" />
+
+    <EditText
+
+        android:id="@+id/etPass"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etUser"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="33dp"
+        android:drawableStart="@drawable/thua"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPass"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        app:cornerRadius="5dp" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPass"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/btnLogin"
+        android:text="Cancel"
+        app:cornerRadius="5dp" />
+
+
+</RelativeLayout>

@@ -38,7 +38,8 @@ public class MainActivity extends AppCompatActivity {
             "chuong4",
             "chuong5",
             "chuong6",
-            "chuong7"
+            "chuong7",
+            "chuong8"
     };
 
     static final int MAX_BAITAP = 30;
