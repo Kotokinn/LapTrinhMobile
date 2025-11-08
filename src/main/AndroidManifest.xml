@@ -12,6 +12,51 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
         <activity
+            android:name=".chuong3.baitap.Chuong3_BaiTap15"
+            android:exported="false" />
+        <activity
+            android:name=".chuong3.baitap.Chuong3_BaiTap14"
+            android:exported="false" />
+        <activity
+            android:name=".chuong3.baitap.Chuong3_BaiTap13"
+            android:exported="false" />
+        <activity
+            android:name=".chuong3.baitap.Chuong3_BaiTap12"
+            android:exported="false" />
+        <activity
+            android:name=".chuong3.baitap.Chuong3_BaiTap11"
+            android:exported="false" />
+        <activity
+            android:name=".chuong3.baitap.Chuong3_BaiTap10"
+            android:exported="false" />
+        <activity
+            android:name=".chuong3.baitap.Chuong3_BaiTap9"
+            android:exported="false" />
+        <activity
+            android:name=".chuong3.baitap.Chuong3_BaiTap8"
+            android:exported="false" />
+        <activity
+            android:name=".chuong3.baitap.Chuong3_BaiTap7"
+            android:exported="false" />
+        <activity
+            android:name=".chuong3.baitap.Chuong3_BaiTap6"
+            android:exported="false" />
+        <activity
+            android:name=".chuong3.baitap.Chuong3_BaiTap5"
+            android:exported="false" />
+        <activity
+            android:name=".chuong3.baitap.Chuong3_BaiTap4"
+            android:exported="false" />
+        <activity
+            android:name=".chuong3.baitap.Chuong3_BaiTap3"
+            android:exported="false" />
+        <activity
+            android:name=".chuong3.baitap.Chuong3_BaiTap2"
+            android:exported="false" />
+        <activity
+            android:name=".chuong3.baitap.Chuong3_BaiTap1"
+            android:exported="false" />
+        <activity
             android:name=".chuong8.baitap.Chuong8_BaiTap1"
             android:exported="false" />
         <activity

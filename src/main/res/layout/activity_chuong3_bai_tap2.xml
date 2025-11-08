@@ -5,14 +5,15 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".baitap.BaiTap4">
+    tools:context=".chuong3.baitap.Chuong3_BaiTap2">
 
     <LinearLayout
-        android:padding="2dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="48dp"
+        android:layout_width="413dp"
+        android:layout_height="575dp"
+        android:layout_marginTop="76dp"
         android:orientation="vertical"
+        android:padding="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -27,8 +28,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="@string/txtUserHint"
             android:inputType="text"
-            android:hint="@string/baiTap4_UserHint"
             android:text="" />
 
         <EditText
@@ -36,7 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="@string/baiTap4_PasswordHint"
+            android:hint="@string/txtPasswordHint"
             android:inputType="numberPassword" />
 
         <LinearLayout
@@ -49,20 +50,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/baiTap4_btnLogin" />
+                android:text="@string/btnLoginText" />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/baiTap4_btnCancel" />
+                android:text="@string/btnCancelText" />
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="xin chao toi la BOT" />
+        <!--        <TextView-->
+        <!--            android:id="@+id/textView2"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="xin chao toi la BOT" />-->
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
     ExpandableListView expandableListView;
     static final String[] CHUONGS = {
+            "chuong3",
             "chuong4",
             "chuong5",
             "chuong6",

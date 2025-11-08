@@ -1,31 +1,31 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <!--Bai tap 4-->
-    <string name="baiTap4_Activity">User Login</string>
-    <string name="baiTap4_UserHint">User:</string>
-    <string name="baiTap4_PasswordHint">Password</string>
-    <string name="baiTap4_btnLogin">Login</string>
-    <string name="baiTap4_btnCancel">Cancel</string>
-    <!--Bai tap 5-->
-    <string name="baiTap5_textA">Nhập số A:</string>
-    <string name="baiTap5_textB">Nhập số B:</string>
-    <string name="baiTap5_result">Kết quả:</string>
-    <string name="baiTap5_cong">+</string>
-    <string name="baiTap5_tru">-</string>
-    <string name="baiTap5_nhan">*</string>
-    <string name="baiTap5_chia">/</string>
+    <string name="app_name">User Login</string>
+    <string name="txtUserHint">User: </string>
+    <string name="txtPasswordHint">Password: </string>"
+    <string name="btnLoginText">Login</string>
+    <string name="btnCancelText">Cancel</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
 
+    <!--  Bài tập 3  -->
+    <string name="txtAppName">Send Email</string>
+    <string name="txtTitleApp">Send Email</string>
+    <string name="txtSendTo">To: </string>
+    <string name="txtSubject">Subject: </string>
+    <string name="txtMessage">Message: </string>
+    <string name="btnSend">Send</string>
 
-    <!--    Bai tap 6-->
-    <string name="baiTap6_Name">Họ tên</string>
-    <string name="baiTap6_Sex">Giới tính</string>
-    <string name="baiTap6_Guy">Nam</string>
-    <string name="baiTap6_Girl">Nữ</string>
-    <string name="baiTap6_Fav">Sở thích</string>
+    <!--  Bài tập 4  -->
+    <string name="txtAppNameMatch">Các phép toán số học cơ bản</string>
+    <string name="txtFirstNumber">Nhập số A</string>
+    <string name="txtSecondNumber">Nhập số B</string>
+    <string name="txtResult">Kết quả</string>
 
+    <!--  Bài tập 6  -->
+    <string name="txtAppNameInformation">Thông tin cá nhân</string>
 
-    <!--    Bai tap 7-->
-    <string name="baiTap7_day">ngày</string>
-    <string name="baiTap7_month">tháng</string>
-    <string name="baiTap7_year">năm</string>
+    <!-- Bài tập 7 -->
+    <string name="txtAppNameChooseBirthdayDates">Chọn ngày sinh</string>
+    <string name="title_activity_expandable_list_view">ExpandableListView</string>
+
 </resources>
