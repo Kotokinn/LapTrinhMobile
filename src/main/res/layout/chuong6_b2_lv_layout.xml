@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bai2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:id="@+id/imageViewCourse"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="20dp"
+            android:id="@+id/textViewsename"
+            android:text="Khóa học"
+            android:layout_alignTop="@+id/imageViewCourse"
+            android:layout_toRightOf="@+id/imageViewCourse"
+            android:layout_toEndOf="@+id/imageViewCourse"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="11dp" />
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:id="@+id/textViewcoursfree"
+            android:text="Học phí"
+            android:layout_alignBottom="@+id/imageViewCourse"
+            android:layout_alignLeft="@+id/textViewsename"
+            android:layout_alignStart="@+id/textViewsename" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
