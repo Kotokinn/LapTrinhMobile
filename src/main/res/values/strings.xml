@@ -28,4 +28,10 @@
     <string name="txtAppNameChooseBirthdayDates">Chọn ngày sinh</string>
     <string name="title_activity_expandable_list_view">ExpandableListView</string>
 
+
+    <string name="btnShowToast">Show Toast</string>
+    <string name="btnExit_Text">Exit</string>
+    <string name="app_name2">Alert Dialog</string>
+
+    <string name="txt_name">Change Color</string>
 </resources>

@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
         <activity
+            android:name=".chuong5.baitap.Chuong5_BaiTap5"
+            android:exported="false" />
+        <activity
+            android:name=".chuong5.baitap.Chuong5_BaiTap4"
+            android:exported="false" />
+        <activity
+            android:name=".chuong5.baitap.Chuong5_BaiTap1"
+            android:exported="false" />
+        <activity
             android:name=".chuong3.baitap.Chuong3_BaiTap15"
             android:exported="false" />
         <activity
