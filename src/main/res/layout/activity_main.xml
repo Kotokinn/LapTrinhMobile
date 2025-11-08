@@ -9,10 +9,10 @@
 
     <ExpandableListView
         android:id="@+id/expandableListView"
-        android:layout_width="407dp"
-        android:layout_height="580dp"
-        android:layout_marginTop="52dp"
+        android:layout_width="409dp"
+        android:layout_height="671dp"
         android:dividerHeight="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

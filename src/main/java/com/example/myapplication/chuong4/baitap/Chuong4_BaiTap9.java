@@ -40,11 +40,26 @@ public class Chuong4_BaiTap9 extends AppCompatActivity {
         btnExec.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int canNum, chiNum;
-                canNum = (int) Math.floor(eDuongLich.getAlpha() / 10 / 100);
-                chiNum = (int) Math.floor(eDuongLich.getAlpha() / 12 / 100);
-                String result = canFunc(canNum) + chiFunc(chiNum);
-                eReruslt.setText(result);
+                String strYear = eDuongLich.getText().toString().trim();
+                if (strYear.isEmpty()) {
+                    eReruslt.setText("Vui lòng nhập năm dương lịch!");
+                    return;
+                }
+
+                try {
+                    int year = Integer.parseInt(strYear);
+
+                    // Tính chỉ số Can và Chi
+                    int canNum = year % 10;
+                    int chiNum = year % 12;
+
+                    // Lấy kết quả
+                    String result = canFunc(canNum) + " " + chiFunc(chiNum);
+                    eReruslt.setText(result);
+
+                } catch (NumberFormatException e) {
+                    eReruslt.setText("Năm không hợp lệ!");
+                }
             }
         });
 
